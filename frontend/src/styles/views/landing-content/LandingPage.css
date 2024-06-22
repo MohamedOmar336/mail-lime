@@ -1,0 +1,93 @@
+.hero-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.hero-section h1 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    max-width: 720px;
+    color: #242424;
+    margin-top: 50px;
+}
+.hero-section p {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    font-style: normal;
+    max-width: 720px;
+    color: #6c757d;
+    margin-top: 30px;
+}
+.cta-btn {
+    border:solid 2px #242424;
+    background-color: white;
+    padding: 8px 25px;
+    border-radius: 100px;
+    font-weight: 600;
+    width: fit-content;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+.cta-btn:hover {
+    background-color: #242424;
+    color: white;
+}
+.article-h {
+    font-weight: 500;
+    font-size: 28px;
+}
+.article-h--sm {
+    font-size: 18px;
+    font-weight: 500;
+    max-width: 50%;
+}
+.feature {
+    padding-right:30px ;
+}
+.feature-name {
+    margin-bottom: 15px;
+    color: #242424;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.5em;
+    border-radius: 0px 0px 0px 0px;
+}
+.feature-desc {
+    font-weight: 400;
+    line-height: 24px;
+    font-style: normal;
+    font-size: 14px;
+    color: #6c757d;
+}
+/* email features */
+.feature-p--regular{
+    font-size: 16px;
+    line-height: 28px;
+}
+.feature-p--bold   {
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 500;
+}
+
+.feature-heading {
+    font-size: 42px;
+    font-weight: 400;
+    line-height: 60px;
+}
+
+.feature-box {
+    border-radius: 8px;
+    padding: 25px;
+    border: 1.5px solid #eaedf0;
+}
+.feature-box svg {
+    height: 24px;
+    color: #FF3131;
+}
+.feature-box h3 {
+    font-weight: 400;
+}

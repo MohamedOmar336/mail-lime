@@ -1,0 +1,59 @@
+.ant-table-pagination {
+    display: flex;
+    justify-content: right !important;
+    align-items: right !important;
+    
+}
+
+.ant-pagination {
+    padding: 0.5%;
+    background-color: #fff; /* Change to your desired background color */
+    color: #333; /* Change to your desired text color */
+    border: None !important; /* Change to your desired border color */
+  }
+  
+/* Customize other pagination elements if needed */
+.ant-pagination-item-active a {
+    background-color: #55B043 !important ; /* Change to your desired active page background color */
+    color: #fff !important; /* Change to your desired active page text color */
+    border-color: none !important; /* Change to your desired active page border color */
+    box-shadow: none !important;
+    outline: none !important;
+    border-radius: 50%;
+}
+
+.custom-table-menu{
+    color: #55B043;
+    width: 100%;
+}
+  
+.ant-pagination-item a:hover {
+    color: #55B043; /* Change to your desired hover color */
+    border-radius: 50% !important;
+
+}
+
+.ant-pagination-item{
+    border-color: #fff !important;
+}
+.ant-menu-light.ant-menu-horizontal >.ant-menu-item-selected::after{
+        border-bottom-color: #55B043 !important;
+}
+
+.ant-menu-light.ant-menu-horizontal >.ant-menu-item-active::after{
+    border-bottom-color: #55B043 !important;
+
+}
+
+.ant-table-wrapper .ant-table-tbody >tr.ant-table-row-selected >td{
+    background-color: rgba(85, 176, 67, 0.1) !important;
+}
+
+.ant-table-wrapper .ant-table-tbody >tr.ant-table-row-selected:hover{
+    background-color: rgba(85, 176, 67, 0.4) !important;
+
+}
+
+.ant-table-wrapper .ant-table-thead >tr>th{
+    font-weight: 500 !important;
+}

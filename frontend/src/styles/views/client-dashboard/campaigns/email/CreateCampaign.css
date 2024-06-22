@@ -1,0 +1,18 @@
+.ant-progress-bg{
+    background-color: #55B043 !important;
+}
+
+.custom-button{
+    background-color: #5AB043;
+    border: #5AB043;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    width: 250px;
+}
+
+.custom-button:hover{
+    background-color: #489c31 !important;
+    border: #489c31 !important;
+    color: white !important;
+}

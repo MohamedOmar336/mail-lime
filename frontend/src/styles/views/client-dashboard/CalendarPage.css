@@ -1,0 +1,56 @@
+.ant-picker-calendar-date-today{
+    background-color: rgba(85, 176, 67, 0.1) !important;
+    border-color: #55B043 !important;
+    color:  #55B043 !important;
+}
+
+.ant-picker-calendar-date-today div{
+    color:  #55B043 !important;
+}
+
+.ant-radio-button-wrapper-checked{
+    color:  #55B043 !important;
+    border-color: #55B043 !important;
+
+}
+
+.ant-radio-button-wrapper-checked:not(.ant-radio-button-wrapper-disabled)::before {
+    background-color: #55B043 !important;
+}
+.ant-radio-button-wrapper:hover {
+    color: #55B043 !important;
+}
+
+.ant-select-item-option-selected:not(.ant-select-item-option-disabled) {
+    background-color: rgba(85, 176, 67, 0.1) !important;
+}
+
+.calendar-card{
+    width: 96%;
+    margin: 2%;
+    padding: 1%;
+}
+.ant-picker-cell-selected{
+    background-color: rgba(85, 176, 67, 0.1) !important;
+    color: #55B043 !important;
+}
+
+.ant-picker-calendar .ant-picker-cell-in-view.ant-picker-cell-selected .ant-picker-cell-inner{
+    background: rgba(85, 176, 67, 0.1) !important;
+    color: #55B043 !important;
+}
+
+.ant-picker-calendar.ant-picker-calendar-full .ant-picker-cell-selected .ant-picker-calendar-date .ant-picker-calendar-date-value{
+    color: #55B043 !important;
+
+}
+
+.ant-select-selector:hover{
+    color: #55B043 !important;
+    border-color: #55B043 !important;
+}
+
+.ant-picker-content th{
+    color: #55B043 !important;
+
+}

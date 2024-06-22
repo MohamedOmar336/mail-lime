@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Poppins:wght@300;400;500;600;700&display=swap');
+
+.app{
+    background-color: #F8F8FB;
+    flex-grow: 1;
+    margin: auto;
+}
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+.item-primary{
+    background-color: #55B043;
+}
+
+.item-secondary{
+    color: #55B043;
+}
+.btn {
+    padding: 8px 15px;
+    border-radius: 4px;
+    transition: all .4s ease;
+    border: none;
+    cursor: pointer;
+}
+.btn--dark {
+    color: white;
+    background-color: #242424;
+}
+.btn--dark:hover {
+    color: white;
+    background-color: #1d1d1d;
+}
+.text-muted {
+    color: #6c757d;
+    max-width: 720px;
+    margin: 0px auto;
+    font-size: 16px;
+}
+.dashboard-primary-row{
+    background-color: transparent;
+    padding: 0.5%;
+    border-radius: 5px;
+    margin-bottom: 1%;
+
+}
+.text-center {
+    text-align: center;
+}
+.link {
+    color: #5AB043;
+    display: block;
+    font-weight: 500;
+    font-size: 16px;
+    transition: all .4s ease-in-out;
+}
+.link:hover {
+    color: #2bbb04;
+}
+.dashboard-secondary-row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #fff;
+    align-items: center;
+    justify-content: center;
+    margin: 1%;
+    padding: 0.5%;
+
+}
+
+.dashboard-col{
+    margin: 0.25%;
+    background-color: transparent;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 5px;
+    height: 100%;
+
+}
+
+.dashboard-solo-col{
+    background-color: #fff;
+    justify-content: center;
+    align-items: center  !important;
+    justify-content: center;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.dashboard-card {
+    padding: 20px; /* Adjust the padding as needed */
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+  
+ 
+.ant-modal-footer .ant-btn-default{
+    color: red !important;
+}
+.ant-modal-footer .ant-btn-default:hover{
+    color: red !important;
+    border-color: red !important;
+}
+.ant-modal-footer .ant-btn-primary{
+    background-color: #55B043 !important;
+}
+
+.ant-input:hover{
+    border-color: #55B043 !important;
+}
+.ant-input:focus{
+    border-color: #55B043 !important;
+}
+.ant-radio-wrapper .ant-radio-checked .ant-radio-inner{
+    background-color: #55B043 !important;
+    border: #55B043 !important;
+}
+
+.ant-radio-inner:hover{
+    border-color: #55B043 !important;
+}
+
+.ant-radio-inner::after{
+    border-color: #55B043 !important;
+}
+
+.ant-tabs .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn{
+    color: #55B043 !important;
+} 
+
+.ant-tabs .ant-tabs-tab  .ant-tabs-tab-btn:hover{
+    color: #55B043 !important;
+
+}
+
+.ant-tabs .ant-tabs-ink-bar{
+    background-color: #55B043 !important;
+
+}
+
+.ant-upload-wrapper .ant-upload-list .ant-upload-list-item {
+    color: #55B043 !important;
+}
+
+.ant-upload-wrapper .ant-upload-list .ant-upload-list-item-done .ant-upload-list-item-actions .anticon{
+    color: #55B043 !important;
+}
+
+.ant-checkbox-checked .ant-checkbox-inner{
+    background-color: #55B043 !important;
+    border-color: #55B043 !important;
+}
+
+
+.ant-checkbox:not(.ant-checkbox-disabled):hover .ant-checkbox-inner{
+    border: 1px solid #55B043 !important;
+}
+.ant-form-item-required::before {
+    content: " " !important; /* Replace asterisk with an empty space */
+    display: none !important; /* Hide the empty space */
+}
+.ant-collapse-item {
+    border-top: 1px solid #eaedf0 ;
+}
+.ant-collapse-header {
+    flex-direction: row-reverse;
+    
+}
+.ant-collapse-header-text {
+    font-weight: 600;
+}
+.ant-collapse-content {
+    border-top: none;
+}
+.ant-collapse-content-box {
+    padding: 0px 16px 16px 16px !important;
+}
+@media (min-width: 1200px) {
+    .bs-container {
+      max-width: 85%;
+    }
+  }
+
+.ant-btn-primary:not(:disabled):not(.ant-btn-disabled):hover {
+    color: #55B043;
+    border-color: #55B043;
+    background-color: #fff;
+}
+
+:where(.css-dev-only-do-not-override-17a39f8).ant-btn-default:not(:disabled):not(.ant-btn-disabled):hover {
+    color: #55B043;
+    border-color: #55B043;
+}
+
+:where(.css-dev-only-do-not-override-17a39f8).ant-checkbox-indeterminate .ant-checkbox-inner:after {
+    background-color: #55B043;
+}

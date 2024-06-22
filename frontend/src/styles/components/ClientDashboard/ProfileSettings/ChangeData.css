@@ -1,0 +1,54 @@
+.change-data {
+    background-color: white;
+    border-radius: 5px;
+}
+.change-data > h4 {
+    font-size: 15px;
+    font-weight: 600;
+    color: #495057;
+}
+.settings-list {
+    list-style: none;
+    margin: 0px;
+}
+.settings-list-item {
+    display: flex;
+    border-top: solid 1px #EFF2F7;
+    padding: 15px;
+}
+.settings-list-item > h6 {
+    font-size: 13px;
+    font-weight: 600;
+    color: #495057;
+}
+.settings-list-item > p {
+    color: #495057;
+    font-size: 13px;
+    padding: 0px;
+}
+.settings-list-update {
+    width: 10px;
+    margin: 10px 0px 10px auto;
+    cursor: pointer;
+}
+.form-title {
+    font-size: 15px;
+    font-weight: 600;
+    color: #495057;
+    margin-top: 20px;
+}
+.profile-img {
+    max-width: 120px;
+}
+.change-data .username{
+    display: block ;
+    margin: 0px;
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: left;
+}
+.change-data .title {
+    color: #495057;
+    font-size: .8rem;
+    text-align: left;
+}

@@ -1,0 +1,40 @@
+.heading-text {
+    text-align: center;
+    color: #495057;
+    font-size: 1.21875rem;
+    font-weight: 500;
+}
+.secondary-text {
+    color: #74788d;
+    text-align: center;
+    max-width: 65%;
+    margin: 1rem auto;
+}
+.plan-col {
+    background-color: white;
+}
+.plan-name {
+    color: #495057;
+    font-size: 1.015625rem;
+    font-weight: 500;
+}
+.plan-name-description {
+    color: #74788d;
+    font-size: 0.8125rem;
+}
+.plan-price {
+    color: #495057;
+    font-weight: 500;
+}
+.plan-price span {
+    font-size: 13px;
+}
+.plan-details-item {
+    display: flex;
+    align-items: center;
+}
+.plan-details-item p {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #495057;
+}

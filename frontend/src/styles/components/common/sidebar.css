@@ -1,0 +1,103 @@
+.sidebar {
+  background-color:#222222 !important;
+  min-height: 100vh;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+.sidebar .ant-menu {
+  background-color: #222222;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  margin-top: 50px;
+}
+.logo {
+  height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 1.5rem;
+}
+.logo-collapsed {
+  width: 50px;
+}
+.sidebar-toggle {
+  position: absolute;
+  left: 100%; 
+  margin-left: 10px;
+  z-index: 10;
+  top: 25px;
+  display: flex;
+}
+.sidebar-toggle svg {
+  width: 19px;
+  height: auto;
+  color: #495057;
+}
+.sidebar .ant-menu-item {
+  height: 45px;
+}
+.sidebar .ant-menu-item-selected{
+  background-color: transparent;
+}
+.sidebar .ant-menu-item-selected  img {
+  color: #FFFFFF;
+  fill: white !important;
+}
+.sidebar .ant-menu-item-selected  .ant-menu-title-content {
+  color: #FFFFFF;
+  fill: white !important;
+}
+.sidebar .ant-menu-title-content {
+  font-size: 13px;
+  color: #A6B0CF;
+}
+.drawer-menu-btn {
+  display: none;
+}
+@media (max-width: 768px) {
+  .sidebar--collapse {
+    display: none !important;
+  }
+  .sidebar-toggle {
+    display: none;
+  }
+  .sidebar--drawer .ant-drawer-header {
+    display: none;
+  }
+  .sidebar--drawer .ant-drawer-body{
+    padding: 0px;
+    position: relative;
+  }
+  .sidebar--drawer .logo {
+    padding-top: 10px;
+  }
+  .sidebar--drawer__close {
+    position: absolute;
+    color: white;
+    cursor: pointer;
+    top: 10px;
+    left: 85%; 
+  }
+  .sidebar--drawer__close span {
+    font-size: 18px;
+  }
+  .drawer-menu-btn {
+    background-color: transparent;
+    box-shadow: none;
+    display: inline;
+    position: absolute;
+    top:19px;
+  }
+  .drawer-menu-btn:hover {
+    background-color: transparent !important;
+  }
+  .drawer-menu-btn span {
+    color: #222222;
+  }
+}
+
+  
+  

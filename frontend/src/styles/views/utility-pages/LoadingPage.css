@@ -1,0 +1,9 @@
+.loading-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10%;
+    background-color: #F8F8FB;
+   
+}

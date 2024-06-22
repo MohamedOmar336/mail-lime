@@ -1,0 +1,21 @@
+.profile-settings {
+    background-color: white;
+    border-radius: 4px;
+}
+.profile-settings > h4{
+    color: #495057;   
+    font-size: 14px;
+    font-weight: 600;
+}
+.settings-menu {
+    list-style: none;
+}
+.your-div-1-class {
+    background-color: white;
+}
+.your-div-2-class {
+    background-color: #495057;
+}
+.settings-menu__item{
+    cursor: pointer;
+}

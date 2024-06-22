@@ -1,0 +1,39 @@
+# Laravel specific entries
+/.env
+/.env.backup
+/.env.production
+/.phpunit.cache
+/node_modules
+/public/build
+/public/hot
+/public/storage
+/storage/*.key
+/vendor
+
+# PHPUnit
+/phpunit.xml
+/phpunit.xml.*
+/phpunit.result.cache
+/tests/
+
+# Composer generated files
+/composer.lock
+/composer.phar
+/vendor/
+
+# Homestead/Vagrant
+/Homestead.json
+/Homestead.yaml
+
+# NPM/Yarn
+/auth.json
+/npm-debug.log
+/yarn-error.log
+
+# Laravel Mix
+/.fleet
+
+# IDE-specific files
+/.idea
+/.vscode
+/.php-cs-fixer.cache

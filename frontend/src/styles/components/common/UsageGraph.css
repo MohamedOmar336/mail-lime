@@ -1,0 +1,25 @@
+.plan-usage {
+    font-size: 15px;
+    margin: 0 0 7px 0;
+    font-weight: 600;
+    color: #495057;
+    padding: 0px;
+}
+.secondary-text {
+    color: #74788d;
+    text-align: left;
+    font-size: 12px;
+    margin: 5px 0px;
+    padding: 0px;
+}
+.plan-usage-field {
+    color: #495057;
+    padding: 0px;
+    font-weight: 500;
+    font-size: 12px;
+}
+.credits-usage {
+    font-size: 13px;
+    font-weight: 500;
+    color: #495057;
+}
