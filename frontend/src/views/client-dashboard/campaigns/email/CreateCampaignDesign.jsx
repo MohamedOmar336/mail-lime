@@ -55,7 +55,7 @@ const CreateCampaignDesign = () => {
             label: 'Create Your Own',
             children: <div style={{display:"flex", alignItems:"center", justifyContent:"center", textAlign:"center"}}>
                             <Button className='bs-m-3' onClick={()=>navigate("/dashboard/campaigns/email/create/editor")}>Use Email Editor</Button>
-                            <Button onClick={()=>navigate("/dashboard/campaigns/email/create/builder")}>Use Email Builder</Button>
+                            {/* <Button onClick={()=>navigate("/dashboard/campaigns/email/create/builder")}>Use Email Builder</Button> */}
                       </div>,
         },
         {

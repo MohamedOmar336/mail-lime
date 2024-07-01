@@ -162,11 +162,11 @@ const DashboardNavbar = () => {
       key: 'dashboard',
       icon: <HomeOutlined />,
     },
-    {
-      label: (<Link to='/dashboard/calendar'>Calender</Link>),
-      key: 'calendar',
-      icon: <CalendarOutlined />,
-    },
+    // {
+    //   label: (<Link to='/dashboard/calendar'>Calender</Link>),
+    //   key: 'calendar',
+    //   icon: <CalendarOutlined />,
+    // },
     {
       label: (<Link to='/dashboard/contacts'>Contacts</Link>),
       key: 'contacts',
@@ -177,26 +177,26 @@ const DashboardNavbar = () => {
       key: 'email',
       icon: <MailOutlined />,
     },
-    {
-      label: (<Link to='/dashboard/campaigns/sms'>Sms</Link>),
-      key: 'sms',
-      icon: <MessageOutlined />,
-    },
-    {
-      label: (<Link to='/dashboard/forms/create'>Forms</Link>),
-      key: 'forms',
-      icon: <FormOutlined />,
-    },
-    {
-      label: (<Link to='/dashboard/users'>Users</Link>),
-      key: 'users',
-      icon: <UserOutlined />,
-    },
-    {
-      label: (<Link to='/dashboard/plan'>Plan</Link>),
-      key: 'plan',
-      icon: <ProjectOutlined />,
-    },
+    // {
+    //   label: (<Link to='/dashboard/campaigns/sms'>Sms</Link>),
+    //   key: 'sms',
+    //   icon: <MessageOutlined />,
+    // },
+    // {
+    //   label: (<Link to='/dashboard/forms/create'>Forms</Link>),
+    //   key: 'forms',
+    //   icon: <FormOutlined />,
+    // },
+    // {
+    //   label: (<Link to='/dashboard/users'>Users</Link>),
+    //   key: 'users',
+    //   icon: <UserOutlined />,
+    // },
+    // {
+    //   label: (<Link to='/dashboard/plan'>Plan</Link>),
+    //   key: 'plan',
+    //   icon: <ProjectOutlined />,
+    // },
   ];
   const currentUrl = window.location.href;
   const urlWords = currentUrl.split('/');
