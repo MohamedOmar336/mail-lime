@@ -1,4 +1,4 @@
-const debug = true;
+const debug = false;
 const stagingMode = true;
 
 const stagingServerUrl = 'http://api-staging.mailime.com';
